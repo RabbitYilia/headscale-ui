@@ -41,6 +41,6 @@ jobs:
             VERSION=${{ env.VERSION }}
           context: ./docker/development
           tags: |
-            ghcr.io/${{ github.repository }}-dev:latest
-            ghcr.io/${{ github.repository }}-dev:${{ env.VERSION }}
+            ghcr.io/rabbityilia/headscale-ui-dev:latest
+            ghcr.io/rabbityilia/headscale-ui-dev:${{ env.VERSION }}
           push: true
